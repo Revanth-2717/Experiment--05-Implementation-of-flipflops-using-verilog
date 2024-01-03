@@ -105,21 +105,70 @@ Q(t+1)=T′Q(t)+TQ(t)′
 /* write all the steps invloved */
 
 
-
-### PROGRAM 
-/*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+
+Developed by: Revanth Palagiri
+
+RegisterNumber: 23002622 
+
+program:
+SR FLIPFLOPS CODE:
+module flip(S,R,clk,Q,Qbar);input S,R,clk;
+output reg Q;
+output reg Qbar;
+initial Q=0;
+initial Qbar=1;
+always @(posedge clk)
+begin
+Q=S|((~R)&Q);
+Qbar=R|((~S)&(Qbar));
+endmodule
+
+JK FLIPFLOPS CODE:
+module flip(J,K,clk,Q,Qbar);input J,K,clk;
+output reg Q;
+output reg Qbar;
+initial Q=0;
+initial Qbar=1;
+always @(posedge clk)
+begin
+Q=(J&(~Q))|((~K)&Q);
+Qbar=((~J)&(Qbar))|K&(~Qbar);
+end
+endmodule
+
+D FLIPFLOPS CODE:
+module flip(D,clk,Q,Qbar);input D,clk;
+output reg Q;
+output reg Qbar;
+initial Q=0;
+initial Qbar=1;
+always @(posedge clk)
+begin
+Q=D;
+Qbar=~D;
+end
+endmodule
+
+T FLIPFLOPS CODE:
+module t_ff(clk,T,q,qbar);input clk,T;
+output q,qbar;
+reg q,qbar;
+always @(posedge clk)
+begin
+q<=(T&~q)|(~T&q);
+qbar<=~q;
+end
+endmodule
 
 
 
 
 
+### RTL LOGIC FOR FLIPFLOPS :
+![ Image 2024-01-03 at 09 45 51_05a849ea](https://github.com/Revanth-2717/Experiment--05-Implementation-of-flipflops-using-verilog/assets/152462274/3e2fe1b0-cba6-4752-b982-6e8cbe1122a7)
 
-### RTL LOGIC FOR FLIPFLOPS 
-
+![ Image 2024-01-03 at 09 46 50_5d071cca](https://github.com/Revanth-2717/Experiment--05-Implementation-of-flipflops-using-verilog/assets/152462274/9941d70e-ac21-433e-8def-3866f7b5a29c)
 
 
 
