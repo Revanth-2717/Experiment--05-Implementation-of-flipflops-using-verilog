@@ -178,12 +178,19 @@ endmodule
 
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
+![ Image 2024-01-03 at 09 18 27_56d070bb](https://github.com/Revanth-2717/Experiment--05-Implementation-of-flipflops-using-verilog/assets/152462274/82caac4f-eae4-4ce8-a438-da20c0514ffe)
 
+![ Image 2024-01-03 at 09 18 27_3c984e97](https://github.com/Revanth-2717/Experiment--05-Implementation-of-flipflops-using-verilog/assets/152462274/4202c50a-b171-4c24-a403-8f42e9cd7668)
 
+![ Image 2024-01-03 at 09 18 28_3e067f77](https://github.com/Revanth-2717/Experiment--05-Implementation-of-flipflops-using-verilog/assets/152462274/56a59a90-fd07-4452-a258-f729deb7f554)
 
+![ Image 2024-01-03 at 09 18 28_27f8b9c2](https://github.com/Revanth-2717/Experiment--05-Implementation-of-flipflops-using-verilog/assets/152462274/a1b8cf3b-bfa8-4aef-93c7-bddf0aede197)
 
+![ Image 2024-01-03 at 09 18 28_21015152](https://github.com/Revanth-2717/Experiment--05-Implementation-of-flipflops-using-verilog/assets/152462274/20ec1ec3-a326-438d-a3e7-dc38b42541e7)
 
+![ Image 2024-01-03 at 09 18 29_91fd09b3](https://github.com/Revanth-2717/Experiment--05-Implementation-of-flipflops-using-verilog/assets/152462274/6cad00f1-265f-4080-b1ec-e566a7e65b0c)
 
+![ Image 2024-01-03 at 09 18 29_0c969c29](https://github.com/Revanth-2717/Experiment--05-Implementation-of-flipflops-using-verilog/assets/152462274/af507f31-f8d1-46ee-966a-7dabe35c4979)
 
 
 ### RESULTS 
